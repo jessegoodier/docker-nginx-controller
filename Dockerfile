@@ -58,7 +58,7 @@ RUN ln -sf /dev/stdout /var/log/nginx-controller/agent.log \
 
 
 
-EXPOSE 80
+EXPOSE 80 443 8090
 
 STOPSIGNAL SIGTERM
 
